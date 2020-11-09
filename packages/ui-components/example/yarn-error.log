@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/Tushar/.nvm/versions/node/v12.18.4/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/Tushar/.npm/_npx/47898/bin:/Users/Tushar/Documents/personal/frontend2/node_modules/.bin:/Users/Tushar/.rvm/gems/ruby-2.7.0/bin:/Users/Tushar/.rvm/gems/ruby-2.7.0@global/bin:/Users/Tushar/.rvm/rubies/ruby-2.7.0/bin:/usr/local/opt/openssl/bin:/Users/Tushar/.nvm/versions/node/v12.18.4/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/Users/Tushar/.rvm/gems/ruby-2.7.0/bin:/Users/Tushar/.rvm/gems/ruby-2.7.0@global/bin:/Users/Tushar/.rvm/rubies/ruby-2.7.0/bin:/usr/local/opt/openssl/bin:/Users/Tushar/.nvm/versions/node/v10.13.0/bin:/Users/Tushar/.rvm/bin:/Users/Tushar/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/Users/Tushar/Documents/personal/frontend2/packages/ui-components/node_modules/react-scripts/node_modules/@babel'
+
+npm manifest: 
+  {
+    "name": "ui-components-example",
+    "homepage": ".",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
+      "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
+      "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
+      "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    },
+    "dependencies": {
+      "react": "link:../node_modules/react",
+      "react-dom": "link:../node_modules/react-dom",
+      "react-scripts": "link:../node_modules/react-scripts",
+      "ui-components": "link:.."
+    },
+    "devDependencies": {
+      "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
